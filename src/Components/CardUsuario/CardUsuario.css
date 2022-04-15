@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+.card {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 0;
+}
+
+.card a{
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 1000px) {
+
+  .btn-menu {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 500px){
+
+
+  .btn-menu{
+      font-size: 12px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .btn-menu {
+      font-size: 10px;
+  }
+
+  
+  
+}
+
+
+
+
+
+

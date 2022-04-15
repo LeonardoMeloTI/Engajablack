@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+.body{
+  background: url("../../assets/img/favelabg.png") no-repeat;
+  background-size: cover;
+  min-height: 150vh; 
+  
+}
+
+.container {
+  margin-top: 10px;
+}
+
+
+
+.titulo {
+  font-family: 'Lacquer', cursive;
+}
+
+.section-inclusao-produto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formulario-inclusao{
+  width: 80%;
+}
+
+

@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+.body{
+  background: url("../../assets/img/favelabg.png") no-repeat;
+  background-size: cover;
+  min-height: 150vh; 
+  
+}
+
+.container {
+  margin-top: 10px;
+}
+
+
+
+.titulo {
+  font-family: 'Lacquer', cursive;
+}
+
+.lista-produtos{
+  border-radius: 10px;
+}

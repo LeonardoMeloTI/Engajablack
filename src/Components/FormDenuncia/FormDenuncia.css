@@ -1,0 +1,39 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.form-denuncia{
+  color: #fff;
+  text-align: center;
+  margin-top:100px;
+  width: 50%; 
+  
+}
+
+.form-denuncia form{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#avisoDenuncia{
+  color: yellow;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.btn-contato, .btn-enviar-denuncia{
+  background-color: red;
+  color: white;
+  margin-bottom: 20px;
+}

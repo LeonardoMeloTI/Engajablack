@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+.body{
+  background: url("../../assets/img/favelabg.png") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.contato{
+  color: #fff;
+  text-align: center;
+  margin-top:100px;
+  width: 50%;
+  min-width: 300px;
+
+}
+
+.contato form{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-contato, .btn-enviar-denuncia{
+  background-color: red;
+  color: white;
+}

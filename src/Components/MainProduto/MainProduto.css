@@ -1,0 +1,55 @@
+#img {
+  width:200px;
+}
+a {
+  color: white;
+  font-family: 'Lacquer', cursive;
+
+}
+
+a:hover {
+  color: rgb(255, 208, 0);
+}
+
+h2 {
+  font-family: 'Lacquer', cursive;
+}
+
+.category {
+  background-color: rgba(0, 0, 0, 0.699);
+  
+  display: flexbox;
+  
+}
+
+
+.painel {
+  display: flex;
+          color:white;
+         
+          padding-left: 10;
+          width: 30%;
+}
+.abc {
+  display: flex;
+}
+.def {
+  display: flex;
+  
+}
+div.card {
+display: contents;  
+width:100%;
+  align-items: flex-start;
+}
+.row {
+  margin-right: 0; 
+  margin-left: 0;
+}
+.products {
+   background-color:  rgba(0, 0, 0, 0.699);;
+   color: aliceblue;
+   border-radius: 10%;
+   margin: 10px;
+  
+}
